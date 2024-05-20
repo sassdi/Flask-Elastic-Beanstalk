@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	eb deploy e-suw2t9c5ti
+	eb deploy flask-continuous-delivery2
 
 all: install lint test 
